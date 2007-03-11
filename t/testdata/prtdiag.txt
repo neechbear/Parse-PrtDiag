@@ -1,0 +1,341 @@
+sunf10:[~] % uname -a
+SunOS sunf10 5.8 Generic_108528-01 sun4u sparc SUNW,Ultra-60
+
+sunf10:[~] % /usr/platform/sun4u/sbin/prtdiag   
+System Configuration:  Sun Microsystems  sun4u Sun Ultra 60 UPA/PCI (2 X UltraSPARC-II 360MHz)
+System clock frequency: 120 MHz
+Memory size: 1280 Megabytes
+
+========================= CPUs =========================
+
+                    Run   Ecache   CPU    CPU
+Brd  CPU   Module   MHz     MB    Impl.   Mask
+---  ---  -------  -----  ------  ------  ----
+ 0     0     0      360     4.0   US-II    10.0
+ 0     2     2      360     4.0   US-II    9.0
+
+
+========================= IO Cards =========================
+
+     Bus   Freq
+Brd  Type  MHz   Slot  Name                              Model
+---  ----  ----  ----  --------------------------------  ----------------------
+ 0   PCI    33     1   network-SUNW,hme                                        
+ 0   PCI    33     3   scsi-glm/disk (block)             Symbios,53C875        
+ 0   PCI    33     3   scsi-glm/disk (block)             Symbios,53C875        
+ 0   UPA   120    30   FFB, Double Buffered              SUNW,501-4788         
+
+No failures found in System
+===========================
+
+
+sunf10:[~] % /usr/platform/sun4u/sbin/prtdiag -v
+System Configuration:  Sun Microsystems  sun4u Sun Ultra 60 UPA/PCI (2 X UltraSPARC-II 360MHz)
+System clock frequency: 120 MHz
+Memory size: 1280 Megabytes
+
+========================= CPUs =========================
+
+                    Run   Ecache   CPU    CPU
+Brd  CPU   Module   MHz     MB    Impl.   Mask
+---  ---  -------  -----  ------  ------  ----
+ 0     0     0      360     4.0   US-II    10.0
+ 0     2     2      360     4.0   US-II    9.0
+
+
+========================= IO Cards =========================
+
+     Bus   Freq
+Brd  Type  MHz   Slot  Name                              Model
+---  ----  ----  ----  --------------------------------  ----------------------
+ 0   PCI    33     1   network-SUNW,hme                                        
+ 0   PCI    33     3   scsi-glm/disk (block)             Symbios,53C875        
+ 0   PCI    33     3   scsi-glm/disk (block)             Symbios,53C875        
+ 0   UPA   120    30   FFB, Double Buffered              SUNW,501-4788         
+
+No failures found in System
+===========================
+
+========================= HW Revisions =========================
+
+ASIC Revisions:
+---------------
+PCI: pci Rev 4
+PCI: pci Rev 4
+Cheerio: ebus Rev 1
+
+System PROM revisions:
+----------------------
+  OBP 3.11.26 1998/04/15 14:52   POST 2.0.0 1998/04/15 15:44
+
+
+
+
+
+
+
+
+
+sunf25:[~] % uname -a
+SunOS sunf25 5.7 Generic_106541-16 sun4u sparc SUNW,Ultra-5_10
+
+sunf25:[~] % /usr/platform/sun4u/sbin/prtdiag   
+System Configuration:  Sun Microsystems  sun4u Sun Ultra 5/10 UPA/PCI (UltraSPARC-IIi 300MHz)
+System clock frequency: 100 MHz
+Memory size: 512 Megabytes
+
+========================= CPUs =========================
+
+                    Run   Ecache   CPU    CPU
+Brd  CPU   Module   MHz     MB    Impl.   Mask
+---  ---  -------  -----  ------  ------  ----
+ 0     0     0      300     0.5   12       1.2
+
+
+========================= IO Cards =========================
+
+     Bus#  Freq
+Brd  Type  MHz   Slot  Name                              Model
+---  ----  ----  ----  --------------------------------  ----------------------
+ 0   PCI-1  33     1   ebus                                                    
+ 0   PCI-1  33     1   network-SUNW,hme                                        
+ 0   PCI-1  33     2   SUNW,m64B                         ATY,GT-B              
+ 0   PCI-1  33     3   ide-pci1095,646                                         
+ 0   PCI-2  33     1   pci-pci1011,24                                          
+ 0   PCI-2  33     4   pci108e,7063-pci108e,7063                               
+
+     Bus   Freq
+Brd  Type  MHz   Slot  Name                              Model
+---  ----  ----  ----  --------------------------------  ----------------------
+ 0   UPA   100    30   FFB, Double Buffered              SUNW,501-4788         
+
+No failures found in System
+===========================
+
+
+/usr/platform/sun4u/sbin/prtdiag -v
+System Configuration:  Sun Microsystems  sun4u Sun Ultra 5/10 UPA/PCI (UltraSPARC-IIi 300MHz)
+System clock frequency: 100 MHz
+Memory size: 512 Megabytes
+
+========================= CPUs =========================
+
+                    Run   Ecache   CPU    CPU
+Brd  CPU   Module   MHz     MB    Impl.   Mask
+---  ---  -------  -----  ------  ------  ----
+ 0     0     0      300     0.5   12       1.2
+
+
+========================= IO Cards =========================
+
+     Bus#  Freq
+Brd  Type  MHz   Slot  Name                              Model
+---  ----  ----  ----  --------------------------------  ----------------------
+ 0   PCI-1  33     1   ebus                                                    
+ 0   PCI-1  33     1   network-SUNW,hme                                        
+ 0   PCI-1  33     2   SUNW,m64B                         ATY,GT-B              
+ 0   PCI-1  33     3   ide-pci1095,646                                         
+ 0   PCI-2  33     1   pci-pci1011,24                                          
+ 0   PCI-2  33     4   pci108e,7063-pci108e,7063                               
+
+     Bus   Freq
+Brd  Type  MHz   Slot  Name                              Model
+---  ----  ----  ----  --------------------------------  ----------------------
+ 0   UPA   100    30   FFB, Double Buffered              SUNW,501-4788         
+
+No failures found in System
+===========================
+
+========================= HW Revisions =========================
+
+ASIC Revisions:
+---------------
+Cheerio: ebus Rev 1
+
+System PROM revisions:
+----------------------
+  OBP 3.11.6 1997/12/08 10:42   POST 2.2.8 1997/12/09 15:56
+
+
+
+
+sunf3:[~] % uname -a
+SunOS sunf3 5.9 Generic_112233-07 sun4u sparc SUNW,Sun-Fire-480R
+
+sunf3-root-2: /usr/platform/sun4u/sbin/prtdiag
+System Configuration:  Sun Microsystems  sun4u Sun Fire 480R
+System clock frequency: 150 MHz
+Memory size: 8192 Megabytes
+
+========================= CPUs ===============================================
+
+          Run   E$    CPU     CPU  
+Brd  CPU  MHz   MB   Impl.    Mask 
+---  ---  ---  ----  -------  ---- 
+ A    0   900  8.0   US-III+  2.3
+ A    2   900  8.0   US-III+  2.3
+
+========================= Memory Configuration ===============================
+
+          Logical  Logical  Logical
+     MC   Bank     Bank     Bank         DIMM    Interleave  Interleaved
+Brd  ID   num      size     Status       Size    Factor      with
+---  ---  ----     ------   -----------  ------  ----------  -----------
+ A    0     0      1024MB   no_status     512MB     8-way        0
+ A    0     1      1024MB   no_status     512MB     8-way        0
+ A    0     2      1024MB   no_status     512MB     8-way        0
+ A    0     3      1024MB   no_status     512MB     8-way        0
+ A    2     0      1024MB   no_status     512MB     8-way        0
+ A    2     1      1024MB   no_status     512MB     8-way        0
+ A    2     2      1024MB   no_status     512MB     8-way        0
+ A    2     3      1024MB   no_status     512MB     8-way        0
+
+========================= IO Cards =========================
+
+                    Bus  Max
+ IO  Port Bus       Freq Bus  Dev,
+Type  ID  Side Slot MHz  Freq Func State Name                              Model
+---- ---- ---- ---- ---- ---- ---- ----- --------------------------------  ----------------------
+PCI   8    B    3    33   33  3,0  ok    scsi-pci1000,f.1000.1000.14/disk+                       
+PCI   8    B    3    33   33  3,1  ok    scsi-pci1000,f.1000.1000.14/disk+                       
+PCI   8    B    4    33   33  4,0  ok    pci-pci8086,b154.0/scsi (scsi)    PCI-BRIDGE            
+PCI   8    B    4    33   33  4,0  ok    scsi-pci1077,1016/sd (block)      QLGC,ISP10160/pci-brid+
+PCI   8    B    4    33   33  5,0  ok    scsi-pci1077,1016/sd (block)      QLGC,ISP10160/pci-brid+
+PCI   8    B    5    33   33  5,0  ok    network-pci108e,abba.11           SUNW,pci-ce           
+PCI   8    A    0    66   66  1,0  ok    SUNW,qlc-pci1077,2312.1077.10a.2+                       
+PCI   8    A    0    66   66  1,1  ok    SUNW,qlc-pci1077,2312.1077.10a.2+                       
+PCI   8    A    1    66   66  2,0  ok    SUNW,qlc-pci1077,2312.1077.10a.2+                       
+PCI   8    A    1    66   66  2,1  ok    SUNW,qlc-pci1077,2312.1077.10a.2+                       
+
+sunf3-root-3: !! -v  
+/usr/platform/sun4u/sbin/prtdiag -v
+System Configuration:  Sun Microsystems  sun4u Sun Fire 480R
+System clock frequency: 150 MHz
+Memory size: 8192 Megabytes
+
+========================= CPUs ===============================================
+
+          Run   E$    CPU     CPU  
+Brd  CPU  MHz   MB   Impl.    Mask 
+---  ---  ---  ----  -------  ---- 
+ A    0   900  8.0   US-III+  2.3
+ A    2   900  8.0   US-III+  2.3
+
+========================= Memory Configuration ===============================
+
+          Logical  Logical  Logical
+     MC   Bank     Bank     Bank         DIMM    Interleave  Interleaved
+Brd  ID   num      size     Status       Size    Factor      with
+---  ---  ----     ------   -----------  ------  ----------  -----------
+ A    0     0      1024MB   no_status     512MB     8-way        0
+ A    0     1      1024MB   no_status     512MB     8-way        0
+ A    0     2      1024MB   no_status     512MB     8-way        0
+ A    0     3      1024MB   no_status     512MB     8-way        0
+ A    2     0      1024MB   no_status     512MB     8-way        0
+ A    2     1      1024MB   no_status     512MB     8-way        0
+ A    2     2      1024MB   no_status     512MB     8-way        0
+ A    2     3      1024MB   no_status     512MB     8-way        0
+
+========================= IO Cards =========================
+
+                    Bus  Max
+ IO  Port Bus       Freq Bus  Dev,
+Type  ID  Side Slot MHz  Freq Func State Name                              Model
+---- ---- ---- ---- ---- ---- ---- ----- --------------------------------  ----------------------
+PCI   8    B    3    33   33  3,0  ok    scsi-pci1000,f.1000.1000.14/disk+                       
+PCI   8    B    3    33   33  3,1  ok    scsi-pci1000,f.1000.1000.14/disk+                       
+PCI   8    B    4    33   33  4,0  ok    pci-pci8086,b154.0/scsi (scsi)    PCI-BRIDGE            
+PCI   8    B    4    33   33  4,0  ok    scsi-pci1077,1016/sd (block)      QLGC,ISP10160/pci-brid+
+PCI   8    B    4    33   33  5,0  ok    scsi-pci1077,1016/sd (block)      QLGC,ISP10160/pci-brid+
+PCI   8    B    5    33   33  5,0  ok    network-pci108e,abba.11           SUNW,pci-ce           
+PCI   8    A    0    66   66  1,0  ok    SUNW,qlc-pci1077,2312.1077.10a.2+                       
+PCI   8    A    0    66   66  1,1  ok    SUNW,qlc-pci1077,2312.1077.10a.2+                       
+PCI   8    A    1    66   66  2,0  ok    SUNW,qlc-pci1077,2312.1077.10a.2+                       
+PCI   8    A    1    66   66  2,1  ok    SUNW,qlc-pci1077,2312.1077.10a.2+                       
+
+=========================  Environmental Status =========================
+
+System Temperatures (Celsius):
+-------------------------------
+Device          Temperature     Status
+---------------------------------------
+CPU0             55             OK
+CPU2             55             OK
+DBP0             27             OK
+
+=================================
+
+Front Status Panel:
+-------------------
+Keyswitch position: NORMAL
+
+System LED Status:
+
+  LOCATOR   FAULT    POWER
+  -------  -------  -------
+   [OFF]    [OFF]    [ ON]
+
+=================================
+
+Disk Status:
+------------
+DISK 0: [NO_FAULT]
+DISK 1: [NO_FAULT]
+
+=================================
+
+Fan Status:
+-----------
+
+Fan Tray        Fan              RPM    Status
+-----------     ----            -----   ----------
+FAN_TRAY_0      CPU0_FAN         5555   [NO_FAULT]
+FAN_TRAY_0      CPU1_FAN         3896   [NO_FAULT]
+FAN_TRAY_0      CPU2_FAN         3846   [NO_FAULT]
+FAN_TRAY_1      IO0_FAN          3947   [NO_FAULT]
+FAN_TRAY_1      IO1_FAN          4109   [NO_FAULT]
+
+=================================
+
+
+
+Power Supplies:
+---------------
+
+Supply     Status        Fault     Fan Fail   Temp Fail
+------    ------------   --------  ---------  ---------
+PS0      [NO_FAULT    ]   OFF       OFF       OFF       
+PS1      [NO_FAULT    ]   OFF       OFF       OFF       
+
+=================================
+
+
+========================= HW Revisions =======================================
+
+System PROM revisions:
+----------------------
+OBP 4.6.8 2002/09/04 13:45
+
+IO ASIC revisions:
+------------------
+         Port
+Model     ID  Status Version
+-------- ---- ------ -------
+Schizo    8     ok      4   
+Schizo    9     ok      4   
+
+
+
+
+
+
+
+
+
+
+
+
+-- 
+Simon Lockhart | * Sun Server Colocation * ADSL * Domain Registration *
+   Director    |    * Domain & Web Hosting * Internet Consultancy * 
+  Bogons Ltd   | * http://www.bogons.net/  *  Email: info@bogons.net  * 

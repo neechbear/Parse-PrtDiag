@@ -1,0 +1,126 @@
+System Configuration:  Sun Microsystems  sun4u Sun Fire 480R
+System clock frequency: 150 MHz
+Memory size: 8192 Megabytes
+
+========================= CPUs ===============================================
+
+          Run   E$    CPU     CPU  
+Brd  CPU  MHz   MB   Impl.    Mask 
+---  ---  ---  ----  -------  ---- 
+ A    0   900  8.0   US-III+  2.3
+ A    2   900  8.0   US-III+  2.3
+
+========================= Memory Configuration ===============================
+
+          Logical  Logical  Logical
+     MC   Bank     Bank     Bank         DIMM    Interleave  Interleaved
+Brd  ID   num      size     Status       Size    Factor      with
+---  ---  ----     ------   -----------  ------  ----------  -----------
+ A    0     0      1024MB   no_status     512MB     8-way        0
+ A    0     1      1024MB   no_status     512MB     8-way        0
+ A    0     2      1024MB   no_status     512MB     8-way        0
+ A    0     3      1024MB   no_status     512MB     8-way        0
+ A    2     0      1024MB   no_status     512MB     8-way        0
+ A    2     1      1024MB   no_status     512MB     8-way        0
+ A    2     2      1024MB   no_status     512MB     8-way        0
+ A    2     3      1024MB   no_status     512MB     8-way        0
+
+========================= IO Cards =========================
+
+                    Bus  Max
+ IO  Port Bus       Freq Bus  Dev,
+Type  ID  Side Slot MHz  Freq Func State Name                              Model
+---- ---- ---- ---- ---- ---- ---- ----- --------------------------------  ----------------------
+PCI   8    B    3    33   33  3,0  ok    scsi-pci1000,f.1000.1000.14/disk+                       
+PCI   8    B    3    33   33  3,1  ok    scsi-pci1000,f.1000.1000.14/disk+                       
+PCI   8    B    4    33   33  4,0  ok    pci-pci8086,b154.0/scsi (scsi)    PCI-BRIDGE            
+PCI   8    B    4    33   33  4,0  ok    scsi-pci1077,1016/sd (block)      QLGC,ISP10160/pci-brid+
+PCI   8    B    4    33   33  5,0  ok    scsi-pci1077,1016/sd (block)      QLGC,ISP10160/pci-brid+
+PCI   8    B    5    33   33  5,0  ok    network-pci108e,abba.11           SUNW,pci-ce           
+PCI   8    A    0    66   66  1,0  ok    SUNW,qlc-pci1077,2312.1077.10a.2+                       
+PCI   8    A    0    66   66  1,1  ok    SUNW,qlc-pci1077,2312.1077.10a.2+                       
+PCI   8    A    1    66   66  2,0  ok    SUNW,qlc-pci1077,2312.1077.10a.2+                       
+PCI   8    A    1    66   66  2,1  ok    SUNW,qlc-pci1077,2312.1077.10a.2+                       
+
+=========================  Environmental Status =========================
+
+System Temperatures (Celsius):
+-------------------------------
+Device          Temperature     Status
+---------------------------------------
+CPU0             55             OK
+CPU2             55             OK
+DBP0             27             OK
+
+=================================
+
+Front Status Panel:
+-------------------
+Keyswitch position: NORMAL
+
+System LED Status:
+
+  LOCATOR   FAULT    POWER
+  -------  -------  -------
+   [OFF]    [OFF]    [ ON]
+
+=================================
+
+Disk Status:
+------------
+DISK 0: [NO_FAULT]
+DISK 1: [NO_FAULT]
+
+=================================
+
+Fan Status:
+-----------
+
+Fan Tray        Fan              RPM    Status
+-----------     ----            -----   ----------
+FAN_TRAY_0      CPU0_FAN         5555   [NO_FAULT]
+FAN_TRAY_0      CPU1_FAN         3896   [NO_FAULT]
+FAN_TRAY_0      CPU2_FAN         3846   [NO_FAULT]
+FAN_TRAY_1      IO0_FAN          3947   [NO_FAULT]
+FAN_TRAY_1      IO1_FAN          4109   [NO_FAULT]
+
+=================================
+
+
+
+Power Supplies:
+---------------
+
+Supply     Status        Fault     Fan Fail   Temp Fail
+------    ------------   --------  ---------  ---------
+PS0      [NO_FAULT    ]   OFF       OFF       OFF       
+PS1      [NO_FAULT    ]   OFF       OFF       OFF       
+
+=================================
+
+
+========================= HW Revisions =======================================
+
+System PROM revisions:
+----------------------
+OBP 4.6.8 2002/09/04 13:45
+
+IO ASIC revisions:
+------------------
+         Port
+Model     ID  Status Version
+-------- ---- ------ -------
+Schizo    8     ok      4   
+Schizo    9     ok      4   
+
+
+
+
+
+
+
+
+
+
+
+
