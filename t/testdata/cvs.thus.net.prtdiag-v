@@ -1,0 +1,122 @@
+System Configuration: Sun Microsystems  sun4u  (2 X UltraSPARC-III) 
+System clock frequency: 150 MHZ
+Memory size: 2GB        
+
+==================================== CPUs ====================================
+               E$          CPU                    CPU
+CPU  Freq      Size        Implementation         Mask    Status      Location
+---  --------  ----------  ---------------------  -----   ------      --------
+0     750 MHz  8MB         SUNW,UltraSPARC-III     5.4    on-line     +-board/cpu0
+1     750 MHz  8MB         SUNW,UltraSPARC-III     5.4    on-line     +-board/cpu1
+
+================================= IO Devices =================================
+Bus     Freq  Slot +      Name +
+Type    MHz   Status      Path                          Model
+------  ----  ----------  ----------------------------  --------------------
+pci     33    +s/system-board  ebus/ns87317-ecpp (parallel)                     
+              okay        /pci@8,700000/ebus@5/parallel@1,300278
+
+pci     33    +s/system-board  ebus/se (serial)                                 
+              okay        /pci@8,700000/ebus@5/serial@1,400000
+
+pci     33    +s/system-board  pci108e,1101 (network)        SUNW,pci-eri       
+              okay        /pci@8,700000/network@5,1
+
+pci     33    +s/system-board  firewire (firewire)                              
+              okay        /pci@8,700000/firewire
+
+pci     33    +s/system-board  scsi-pci1000,f (scsi-2)                          
+              okay        /pci@8,700000/scsi@6
+
+pci     33    +s/system-board  scsi-pci1000,f (scsi-2)                          
+              okay        /pci@8,700000/scsi@6,1
+
+pci     33    +s/system-board  pci108e,1000                                     
+              okay        /pci@8,700000/pci@3/pci108e,1000
+
+pci     33    +s/system-board  SUNW,qfe (network)            SUNW,pci-qfe       
+              okay        /pci@8,700000/pci@3/SUNW,qfe@0,1
+
+pci     33    +s/system-board  pci108e,1000                                     
+              okay        /pci@8,700000/pci@3/pci108e,1000
+
+pci     33    +s/system-board  SUNW,qfe (network)            SUNW,pci-qfe       
+              okay        /pci@8,700000/pci@3/SUNW,qfe@1,1
+
+pci     33    +s/system-board  pci108e,1000                                     
+              okay        /pci@8,700000/pci@3/pci108e,1000
+
+pci     33    +s/system-board  SUNW,qfe (network)            SUNW,pci-qfe       
+              okay        /pci@8,700000/pci@3/SUNW,qfe@2,1
+
+pci     33    +s/system-board  pci108e,1000                                     
+              okay        /pci@8,700000/pci@3/pci108e,1000
+
+pci     33    +s/system-board  SUNW,qfe (network)            SUNW,pci-qfe       
+              okay        /pci@8,700000/pci@3/SUNW,qfe@3,1
+
+pci     66    +s/system-board  SUNW,qlc-pci1077,2200 (scsi-+                    
+              okay        /pci@8,600000/SUNW,qlc@4
+
+pci     66    +s/system-board  JNI,FCE (scsi)                FCE2-6412          
+              okay        /pci@8,600000/pci@1/JNI,FCE@4
+
+pci     66    +s/system-board  JNI,FCE (scsi)                FCE2-6412          
+              okay        /pci@8,600000/pci@1/JNI,FCE@5
+
+
+============================ Memory Configuration ============================
+Segment Table:
+-----------------------------------------------------------------------
+Base Address       Size       Interleave Factor  Contains
+-----------------------------------------------------------------------
+0x0                2GB               2           BankIDs 0,2
+
+Bank Table:
+-----------------------------------------------------------
+           Physical Location
+ID       ControllerID  GroupID   Size       Interleave Way
+-----------------------------------------------------------
+0        0             0         1GB             0
+2        0             0         1GB             1
+
+Memory Module Groups:
+--------------------------------------------------
+ControllerID   GroupID  Labels         Status
+--------------------------------------------------
+0              0        chassis/system-board/J0100
+0              0        chassis/system-board/J0202
+0              0        chassis/system-board/J0304
+0              0        chassis/system-board/J0406
+
+============================ Environmental Status ============================
+Fan Status:
+-------------------------------------------
+Location             Sensor          Status
+-------------------------------------------
++sis/system-fan-slot system-fan      okay
+chassis/cpu-fan-slot cpu-fan         okay
++s/power-supply-slot power-supply    okay
+
+Temperature sensors:
+-----------------------------------------
+Location       Sensor              Status
+-----------------------------------------
++em-board/cpu0 Die                 okay 
++em-board/cpu0 Ambient             okay 
++em-board/cpu1 Die                 okay 
++em-board/cpu1 Ambient             okay 
+
+================================ HW Revisions ================================
+ASIC Revisions:
+-------------------------------------------------------------------
+Path                   Device           Status             Revision
+-------------------------------------------------------------------
+/pci@8,700000          pci108e,8001     okay               4   
+/pci@8,600000          pci108e,8001     okay               4   
+/pci@8,700000/ebus@5   ebus             okay               1   
+
+System PROM revisions:
+----------------------
+OBP 4.10.1 2003/04/09 10:56
+POST 4.10.1 2003/04/09 14:29

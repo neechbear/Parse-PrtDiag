@@ -1,0 +1,113 @@
+System Configuration:  Sun Microsystems  sun4u 8-slot Sun Enterprise E4500/E5500
+System clock frequency: 100 MHz
+Memory size: 1024Mb
+
+========================= CPUs =========================
+
+                    Run   Ecache   CPU    CPU
+Brd  CPU   Module   MHz     MB    Impl.   Mask
+---  ---  -------  -----  ------  ------  ----
+ 0     0     0      400     8.0   US-II    10.0
+ 0     1     1      400     8.0   US-II    10.0
+
+
+========================= Memory =========================
+
+                                              Intrlv.  Intrlv.
+Brd   Bank   MB    Status   Condition  Speed   Factor   With
+---  -----  ----  -------  ----------  -----  -------  -------
+ 0     0    1024   Active      OK       60ns    1-way  
+
+========================= IO Cards =========================
+
+     Bus   Freq
+Brd  Type  MHz   Slot        Name                          Model
+---  ----  ----  ----------  ----------------------------  --------------------
+ 1   SBus   25            0  SUNW,socal/sf (scsi-3)        501-5266           
+ 1   SBus   25            1  QLGC,isp/sd (block)           QLGC,ISP1000U      
+ 1   SBus   25            3  SUNW,hme                                         
+ 1   SBus   25            3  SUNW,fas/sd (block)                              
+ 1   SBus   25           13  SUNW,socal/sf (scsi-3)        501-3060           
+
+Detached Boards
+===============
+  Slot  State       Type           Info
+  ----  ---------   ------         -----------------------------------------
+    3    disabled   disk           Disk 0: Target: 10   Disk 1: Target: 11   
+    5      failed   disk           Disk 0: no disk      Disk 1: no disk      
+
+Failed Field Replaceable Units (FRU) in System:
+==============================================
+disk-board unavailable on IO Board #5
+	PROM fault string: fail
+	Failed Field Replaceable Unit is IO board 5
+
+Detected System Faults
+======================
+PROM detected failure
+	Detected Mon Feb 26 14:57:43 2007
+
+Most recent AC Power Failure:
+=============================
+Sat Feb 24 06:14:59 2007
+
+
+========================= Environmental Status =========================
+Keyswitch position is in Normal Mode
+System Power Status: Redundant
+System LED Status:    GREEN     YELLOW     GREEN
+WARNING                ON        ON        BLINKING
+
+
+Fans:
+-----
+Unit   Status
+----   ------
+Rack    OK
+Key     OK
+AC      OK
+
+System Temperatures (Celsius):
+------------------------------
+Brd   State   Current  Min  Max  Trend
+---  -------  -------  ---  ---  -----
+ 0      OK       31     24   37  stable
+ 1      OK       37     31   39  stable
+CLK     OK       27     23   30  stable
+
+
+Power Supplies:
+---------------
+Supply                        Status
+---------                     ------
+0                                OK
+1                                OK
+2                                OK
+PPS                              OK
+    System 3.3v                  OK
+    System 5.0v                  OK
+    Peripheral 5.0v              OK
+    Peripheral 12v               OK
+    Auxilary 5.0v                OK
+    Peripheral 5.0v precharge    OK
+    Peripheral 12v precharge     OK
+    System 3.3v precharge        OK
+    System 5.0v precharge        OK
+AC Power                         OK
+
+
+========================= HW Revisions =========================
+
+ASIC Revisions:
+---------------
+Brd  FHC  AC  SBus0  SBus1  PCI0  PCI1  FEPS  Board Type      Attributes
+---  ---  --  -----  -----  ----  ----  ----  ----------      ----------
+ 0    1    5                                  CPU             100MHz Capable
+ 1    1    5    1      1                 22   Dual-SBus-SOC+  100MHz Capable
+ 3                                            Unknown         100MHz Capable
+ 5                                            Unknown         100MHz Capable
+
+System Board PROM revisions:
+----------------------------
+Board  0:   OBP   3.2.30 2002/10/25 14:03   POST  3.9.30 2002/10/25 14:04
+Board  1:   FCODE 1.8.30 2002/10/25 14:02   iPOST 3.4.30 2002/10/25 14:03

@@ -1,0 +1,25 @@
+System Configuration:  Sun Microsystems  sun4u Sun Fire 280R (2 X UltraSPARC-III+) 
+System clock frequency: 150 MHz
+Memory size: 2048 Megabytes
+
+========================= CPUs ===============================================
+
+          Run    E$    CPU     CPU  
+Brd  CPU  MHz    MB   Impl.    Mask 
+---  ---  ----  ----  -------  ---- 
+ A    0   1200   8.0  US-III+  11.0   
+ B    1   1200   8.0  US-III+  11.0   
+
+========================= Memory Configuration ===============================
+
+           Logical  Logical  Logical 
+      MC   Bank     Bank     Bank         DIMM    Interleave  Interleaved
+ Brd  ID   num      size     Status       Size    Factor      with
+----  ---  ----     ------   -----------  ------  ----------  -----------
+ CA    0     0      1024MB   no_status     512MB     2-way        0
+ CA    0     2      1024MB   no_status     512MB     2-way        0
+
+========================= IO Cards =========================
+
+
+

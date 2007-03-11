@@ -1,0 +1,23 @@
+System Configuration:  Sun Microsystems  sun4u Sun Ultra 60 UPA/PCI (UltraSPARC-II 296MHz)
+System clock frequency: 99 MHz
+Memory size: 128 Megabytes
+
+========================= CPUs =========================
+
+                    Run   Ecache   CPU    CPU
+Brd  CPU   Module   MHz     MB    Impl.   Mask
+---  ---  -------  -----  ------  ------  ----
+ 0     0     0      296     2.0   US-II    2.0
+
+
+========================= IO Cards =========================
+
+     Bus   Freq
+Brd  Type  MHz   Slot        Name                           Model
+---  ----  ----  ----------  -----------------------------  -------------------
+ 0   PCI     33    On-Board  network-SUNW,hme                                  
+ 0   PCI     33    On-Board  scsi-glm/disk (block)          Symbios,53C875     
+ 0   PCI     33    On-Board  scsi-glm/disk (block)          Symbios,53C875     
+
+No failures found in System
+===========================

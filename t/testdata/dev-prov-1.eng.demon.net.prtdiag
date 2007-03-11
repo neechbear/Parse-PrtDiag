@@ -1,0 +1,49 @@
+System Configuration:  Sun Microsystems  sun4u 8-slot Sun Enterprise E4500/E5500
+System clock frequency: 100 MHz
+Memory size: 1024Mb
+
+========================= CPUs =========================
+
+                    Run   Ecache   CPU    CPU
+Brd  CPU   Module   MHz     MB    Impl.   Mask
+---  ---  -------  -----  ------  ------  ----
+ 0     0     0      400     8.0   US-II    10.0
+ 0     1     1      400     8.0   US-II    10.0
+
+
+========================= Memory =========================
+
+                                              Intrlv.  Intrlv.
+Brd   Bank   MB    Status   Condition  Speed   Factor   With
+---  -----  ----  -------  ----------  -----  -------  -------
+ 0     0    1024   Active      OK       60ns    1-way  
+
+========================= IO Cards =========================
+
+     Bus   Freq
+Brd  Type  MHz   Slot        Name                          Model
+---  ----  ----  ----------  ----------------------------  --------------------
+ 1   SBus   25            0  SUNW,socal/sf (scsi-3)        501-5266           
+ 1   SBus   25            1  QLGC,isp/sd (block)           QLGC,ISP1000U      
+ 1   SBus   25            3  SUNW,hme                                         
+ 1   SBus   25            3  SUNW,fas/sd (block)                              
+ 1   SBus   25           13  SUNW,socal/sf (scsi-3)        501-3060           
+
+Detached Boards
+===============
+  Slot  State       Type           Info
+  ----  ---------   ------         -----------------------------------------
+    3    disabled   disk           Disk 0: Target: 10   Disk 1: Target: 11   
+    5      failed   disk           Disk 0: no disk      Disk 1: no disk      
+
+Failed Field Replaceable Units (FRU) in System:
+==============================================
+disk-board unavailable on IO Board #5
+	PROM fault string: fail
+	Failed Field Replaceable Unit is IO board 5
+
+Detected System Faults
+======================
+PROM detected failure
+	Detected Mon Feb 26 14:57:43 2007
+

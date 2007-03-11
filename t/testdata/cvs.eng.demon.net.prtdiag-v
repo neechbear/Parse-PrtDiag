@@ -1,0 +1,41 @@
+System Configuration:  Sun Microsystems  sun4u Sun Netra X1 (UltraSPARC-IIe 500MHz)
+System clock frequency: 100 MHz
+Memory size: 2048 Megabytes
+
+========================= CPUs =========================
+
+                    Run   Ecache   CPU    CPU
+Brd  CPU   Module   MHz     MB    Impl.   Mask
+---  ---  -------  -----  ------  ------  ----
+ 0     0     0      500     0.2   13       1.4
+
+
+========================= IO Cards =========================
+
+     Bus#  Freq
+Brd  Type  MHz   Slot  Name                              Model
+---  ----  ----  ----  --------------------------------  ----------------------
+ 0   PCI-0  33     0   dma-isadma                                              
+ 0   PCI-0  33     0   rtc-m5819                         m5819                 
+ 0   PCI-0  33     0   power-acpi-power                                        
+ 0   PCI-0  33     0   SUNW,lomh                                               
+ 0   PCI-0  33     0   serial-su16550                                          
+ 0   PCI-0  33     0   serial-su16550                                          
+ 0   PCI-0  33     0   flashprom                         SUNW,258-7883         
+ 0   PCI-0  33     0   i2c-i2c-smbus                                           
+ 0   PCI-0  33     0   ppm-SUNW,smbus-ppm                                      
+ 0   PCI-0  33     0   beep-SUNW,smbus-beep                                    
+ 0   PCI-0  33     0   fan-control-SUNW,smbus-fan-contr+                       
+
+
+No failures found in System
+===========================
+
+========================= HW Revisions =========================
+
+ASIC Revisions:
+---------------
+
+System PROM revisions:
+----------------------
+  CORE 1.0.18 2002/05/23 18:22   

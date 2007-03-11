@@ -1,0 +1,85 @@
+System Configuration:  Sun Microsystems  sun4u Sun Fire 280R (2 X UltraSPARC-III+) 
+System clock frequency: 150 MHz
+Memory size: 2048 Megabytes
+
+========================= CPUs ===============================================
+
+          Run    E$    CPU     CPU  
+Brd  CPU  MHz    MB   Impl.    Mask 
+---  ---  ----  ----  -------  ---- 
+ A    0   1200   8.0  US-III+  11.0   
+ B    1   1200   8.0  US-III+  11.0   
+
+========================= Memory Configuration ===============================
+
+           Logical  Logical  Logical 
+      MC   Bank     Bank     Bank         DIMM    Interleave  Interleaved
+ Brd  ID   num      size     Status       Size    Factor      with
+----  ---  ----     ------   -----------  ------  ----------  -----------
+ CA    0     0      1024MB   no_status     512MB     2-way        0
+ CA    0     2      1024MB   no_status     512MB     2-way        0
+
+========================= IO Cards =========================
+
+
+
+
+========================= Environmental Status =========================
+
+System Temperatures (Celsius):
+------------------------------
+cpu0   1 
+---------
+  46  46
+
+=================================
+
+Front Status Panel:
+-------------------
+Keyswitch position: NORMAL
+
+System LED Status: POWER                   GEN FAULT
+                   [ ON]                    [OFF]
+
+=================================
+
+Disk Status:
+          Presence      Fault Value
+          --------      -----------
+DISK   0: [PRESENT]     [NO_FAULT]
+DISK   1: [PRESENT]     [NO_FAULT]
+
+=================================
+
+Fan Bank :
+----------
+
+Bank                        Status
+----                        -------
+FAN                         [NO_FAULT]
+
+=================================
+
+Power Supplies:
+---------------
+Supply     Status         PS Type
+------     ------      ---------------
+PS0       [OK    ]     [Sun-Fire-280R]
+PS1       [OK    ]     [Sun-Fire-280R]
+
+=================================
+
+
+========================= HW Revisions =======================================
+
+System PROM revisions:
+----------------------
+OBP 4.16.4 2004/12/18 05:18
+
+IO ASIC revisions:
+------------------
+                     Port
+Model     ID  Status Version
+-------- ---- ------ -------
+Schizo    8     ok      7   
+

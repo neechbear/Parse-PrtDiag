@@ -8,31 +8,33 @@ use Test::More;
 use lib qw(./lib ../lib);
 use Parse::PrtDiag qw();
 
+plan skip_all => 'Code is not complete yet';
+
 my @files = glob('testdata/*');
 plan tests => (scalar(@files)*21) + 1;
 
-my $dmi;
-ok($dmi = Parse::PrtDiag->new(nowarnings => 1),'new');
+my $prtdiag;
+ok($prtdiag = Parse::PrtDiag->new(nowarnings => 1),'new');
 
 for my $file (@files) {
-	ok($dmi->parse(slurp($file)),$file);
+	ok($prtdiag->parse(slurp($file)),$file);
 
-	ok($dmi->smbios_version >= 2.0,"$file \$dmi->smbios_version");
-	#ok($dmi->dmidecode_version >= 2.0,"$file \$dmi->dmidecode_version");
-	ok($dmi->table_location,"$file \$dmi->table_location");
+	ok($prtdiag->smbios_version >= 2.0,"$file \$prtdiag->smbios_version");
+	#ok($prtdiag->dmidecode_version >= 2.0,"$file \$prtdiag->dmidecode_version");
+	ok($prtdiag->table_location,"$file \$prtdiag->table_location");
 
-	my @handle_addresses = $dmi->handle_addresses;
+	my @handle_addresses = $prtdiag->handle_addresses;
 	my @uniq_handle_addresses = uniq(@handle_addresses); 
-	ok(scalar(@handle_addresses) >= $dmi->structures,"$file \$dmi->handle_addresses >= \$dmi->handle_structures");
-	ok(scalar(@uniq_handle_addresses) == $dmi->structures,"$file unique handle address == \$dmi->handle_structures");
+	ok(scalar(@handle_addresses) >= $prtdiag->structures,"$file \$prtdiag->handle_addresses >= \$prtdiag->handle_structures");
+	ok(scalar(@uniq_handle_addresses) == $prtdiag->structures,"$file unique handle address == \$prtdiag->handle_structures");
 
-	for my $dmitype (qw(0 1 2 3)) {
+	for my $prtdiagtype (qw(0 1 2 3)) {
 		my @handles;
 		ok(
-			@handles = $dmi->get_handles( dmitype => $dmitype ),
-			"$file \$dmi->get_handles(dmitype => $dmitype)"
+			@handles = $prtdiag->get_handles( dmitype => $prtdiagtype ),
+			"$file \$prtdiag->get_handles(dmitype => $prtdiagtype)"
 		);
-		ok($handles[0]->dmitype == $dmitype,"$file \$handle->dmitype");
+		ok($handles[0]->dmitype == $prtdiagtype,"$file \$handle->dmitype");
 		ok($handles[0]->bytes =~ /^\d+$/,"$file \$handle->bytes");
 		ok($handles[0]->description =~ /^\S.{4,64}$/,"$file \$handle->description");
 	}

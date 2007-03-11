@@ -1,0 +1,35 @@
+System Configuration:  Sun Microsystems  sun4u Sun Ultra 5/10 UPA/PCI (UltraSPARC-IIi 333MHz)
+System clock frequency: 111 MHz
+Memory size: 256 Megabytes
+
+========================= CPUs =========================
+
+                    Run   Ecache   CPU    CPU
+Brd  CPU   Module   MHz     MB    Impl.   Mask
+---  ---  -------  -----  ------  ------  ----
+ 0     0     0      333     2.0   12       1.3
+
+
+========================= IO Cards =========================
+
+     Bus#  Freq
+Brd  Type  MHz   Slot  Name                              Model
+---  ----  ----  ----  --------------------------------  ----------------------
+ 0   PCI-1  33     1   ebus                                                    
+ 0   PCI-1  33     1   network-SUNW,hme                                        
+ 0   PCI-1  33     2   SUNW,m64B                         ATY,GT-C              
+ 0   PCI-1  33     3   ide-pci1095,646.1095.646.3                              
+
+
+No failures found in System
+===========================
+
+========================= HW Revisions =========================
+
+ASIC Revisions:
+---------------
+Cheerio: ebus Rev 1
+
+System PROM revisions:
+----------------------
+  OBP 3.31.0 2001/07/25 20:36   POST 3.1.0 2000/06/27 13:56

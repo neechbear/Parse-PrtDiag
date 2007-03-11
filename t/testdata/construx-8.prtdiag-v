@@ -1,0 +1,36 @@
+System Configuration:  Sun Microsystems  sun4u Netra t1 (UltraSPARC-IIi 440MHz)
+System clock frequency: 110 MHz
+Memory size: 256 Megabytes
+
+========================= CPUs =========================
+
+                    Run   Ecache   CPU    CPU
+Brd  CPU   Module   MHz     MB    Impl.   Mask
+---  ---  -------  -----  ------  ------  ----
+ 0     0     0      440     2.0   12       9.1
+
+
+========================= IO Cards =========================
+
+     Bus#  Freq
+Brd  Type  MHz   Slot  Name                              Model
+---  ----  ----  ----  --------------------------------  ----------------------
+ 0   PCI-1  33     1   ebus                                                    
+ 0   PCI-1  33     1   network-SUNW,hme                                        
+ 0   PCI-1  33     2   scsi-glm                          Symbios,53C875        
+ 0   PCI-1  33     3   network-SUNW,hme                                        
+ 0   PCI-2  33     1   pci-pci1011,22                                          
+
+
+No failures found in System
+===========================
+
+========================= HW Revisions =========================
+
+ASIC Revisions:
+---------------
+Cheerio: ebus Rev 1
+
+System PROM revisions:
+----------------------
+  OBP 3.10.27 2000/06/22 16:45   POST 1.17.0 2000/03/06 12:18

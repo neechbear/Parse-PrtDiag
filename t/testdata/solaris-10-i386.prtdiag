@@ -1,0 +1,29 @@
+System Configuration: IBM IBM eServer 325 -[8835abc]-
+BIOS Configuration: IBM IBM BIOS Version 1.35 -[M1E135AUS-1.35]- 11/30/04
+BMC Configuration: IPMI 1.5 (KCS: Keyboard Controller Style)
+
+==== Processor Sockets ====================================
+
+Version                          Location Tag
+-------------------------------- --------------------------
+Opteron                          CPU0-Socket 940
+
+==== Memory Device Sockets ================================
+
+Type    Status Set Device Locator      Bank Locator
+------- ------ --- ------------------- --------------------
+DRAM    in use 1   DDR1                Bank 0
+DRAM    in use 1   DDR2                Bank 0
+DRAM    in use 2   DDR3                Bank 1
+DRAM    in use 2   DDR4                Bank 1
+DRAM    empty  3   DDR5                Bank 2
+DRAM    empty  3   DDR6                Bank 2
+
+==== On-Board Devices =====================================
+
+==== Upgradeable Slots ====================================
+
+ID  Status    Type             Description
+--- --------- ---------------- ----------------------------
+1   available PCI-X            PCI-X Slot 1
+2   in use    PCI-X            PCI-X Slot 2

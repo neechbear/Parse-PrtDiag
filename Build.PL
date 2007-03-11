@@ -5,7 +5,7 @@ use strict;
 use Module::Build;
 use vars qw($build);
 
-my $module = 'Parse::DMIDecode';
+my $module = 'Parse::PrtDiag';
 $build = Module::Build->new(
 		module_name        => $module,
 		license            => 'open_source',
